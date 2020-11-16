@@ -1,0 +1,89 @@
+.menu {
+    /*display: flex;*/
+    margin-right: 20px;
+    /*flex-direction: row;
+    justify-content: flex-end;*/
+    /*background-color: aqua;*/
+    ul {
+        /*display: flex;*/
+        position: absolute;
+        top: 44px;
+        left: 0px;
+        display: none;
+        a {
+            padding: 0;
+            display: block;
+            &:hover {
+                background-color: seagreen;
+            }
+            }
+        }
+}
+
+.menu {
+    ul {
+        li {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+.logo {
+    background-color:red;
+}
+
+header {
+    position: relative;
+    height: 44px;
+    background-color: salmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+
+nav {
+    label {
+        &:hover {
+            background-color: red;
+        }
+        &:active {
+            color: white;
+        }
+    }
+}
+
+input[type="checkbox"]:checked ~ ul{
+    background-color: rosybrown;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input[type="checkbox"]:checked label{
+    background-color: saddlebrown;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        background-color: seagreen;
+    }
+
+    .menu {
+        ul {
+            top: 0px;
+            position: relative;
+            display: flex;
+        }
+        label {
+            display: none;
+        }
+    }
+}
