@@ -1,0 +1,19 @@
+.section-3 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        max-width: 100%;
+        margin-top: -100px;
+        margin-bottom: 27px;
+    }
+    h2 {
+        margin-bottom: 8px;
+        align-self: flex-start;
+    }
+    .tercer-parrafo {
+        margin-bottom: 54px;
+    }
+}

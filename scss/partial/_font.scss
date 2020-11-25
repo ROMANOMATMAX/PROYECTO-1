@@ -12,35 +12,49 @@
     font-family: 'IBM Plex Sans', sans-serif;
   }
   
-  h1 {
-    font-size: 64px;
-    font-family: 'IBM Plex Sans', sans-serif;
+  section h1, h2 {
+    font-family: 'IBMPlexSans', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
     color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
   }
   
   .primer-parrafo, .segundo-parrafo, .tercer-parrafo {
-    font-size: 16px;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBMPlexMono', monospace;
+    font-size: 14px;
     color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
   }
   
   .conoce-mas-y-escucha-los-episodios {
-    font-size: 18px;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBMPlexMono-Medium', monospace;
+    font-weight: 1000;
+    font-size: 16px;
     color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
   }
   
-  section h2 {
-    font-size: 48px;
+  /*section h2 {
     font-family: 'IBM Plex Sans', sans-serif;
-  }
+    font-size: 36px;
+    font-weight: 500;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 42px;
+  }*/
   
   .blue-section-title {
     color: #060A24;
   }
-    
+
   .pie-de-imagen {
     font-size: 24px;
     font-family: 'IBM Plex Sans', sans-serif;
     color: #060A24;
+    font-weight: 600;
   }
