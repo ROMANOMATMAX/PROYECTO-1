@@ -1,19 +1,23 @@
 .section-3 {
-    padding: 1rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    .imagen-section-3 {
+        margin-top: -25%;
+        margin-bottom: 10%;
+    }
     img {
-        max-width: 100%;
-        margin-top: -100px;
-        margin-bottom: 27px;
+        max-width: 100%;        
     }
     h2 {
-        margin-bottom: 8px;
+        margin-bottom: 2%;
         align-self: flex-start;
     }
-    .tercer-parrafo {
+    /*.tercer-parrafo {
         margin-bottom: 54px;
-    }
+    }*/
 }

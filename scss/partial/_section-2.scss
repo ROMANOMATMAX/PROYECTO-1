@@ -1,23 +1,30 @@
 .section-2 {
     position: relative;
+    padding-top: 15%;
+    padding-right: 3.4%;
+    padding-left: 3.4%;
+    padding-bottom: 15%;
     /*padding-top: 4rem;
     padding-left: 1rem;*/
-    height: 61rem;/*75.21875rem;*/
+    /*height: 61rem;/*75.21875rem;*/
     h2 {
-        padding-top: 4rem;
+        /*padding-top: 4rem;
         padding-left: 16px;
-        padding-bottom: 1.3125rem;
+        padding-bottom: 1.3125rem;*/
         align-self: flex-start;
         color: white;
+        margin-bottom: 5%;
+        padding-left: 1.6%;
     }
 
    .episodio{
     width: 100%;
+    margin-bottom: 3%;
     iframe {
         width: 100%;
         min-height: 232px;
-        padding-right: 0.6875rem;
-        padding-left: 0.6875rem;
+        /*padding-right: 0.6875rem;
+        padding-left: 0.6875rem;*/
 
     }
     
@@ -28,7 +35,7 @@
    } 
 }
 
-.section-2:after, .section-2:before {
+/*.section-2:after, .section-2:before {
     content: '';
     position: absolute;
     width:100%;
@@ -43,7 +50,7 @@ background: linear-gradient(270deg, rgba(0,0,255,1) 50%, rgba(0,0,163,1) 100%, r
 
 .section-2:after {
     top: 50%;
-}
+}*/
 
 .section-2 {
     .contenedor {
@@ -55,4 +62,18 @@ background: linear-gradient(270deg, rgba(0,0,255,1) 50%, rgba(0,0,163,1) 100%, r
         flex-direction: column;
         align-items: center;
     }
+}
+
+.section-2 {
+    color: white;
+    position: relative;
+    /* padding-top: 12rem; */
+    /* padding-bottom: 12rem; */
+    background: #6a233a;
+    background: radial-gradient(circle, #6a233a 46%, #2a0979 83%);
+    clip-path: polygon(0 2%, 100% 0%, 100% 98%, 0% 100%);
+    /*padding-left: 6.9%;
+    padding-right: 6.9%;
+    padding-top: 4.8%;*/
+    z-index: -1;
 }

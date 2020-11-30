@@ -3,22 +3,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
     h1{
-        margin-bottom: 1rem;
+        margin-bottom: 5%;
         align-self: flex-start;
     }
     p {
-        width: 18rem;
-        height: 4.125rem;
+        /*width: 18rem;*/
+        /*height: 4.125rem;*/
         width: 100%;
-        margin-bottom: 2.25rem;
+        margin-bottom: 10%;
     }
     a {
         background-color: #00F3BB;
-        width: 18rem;
-        height: 3rem;
-        margin-bottom: 24px;
+        width: 90%;
+        padding: 3%;
+        margin-bottom: 10%;
         display: flex;
         justify-content: center;
         align-items: center;

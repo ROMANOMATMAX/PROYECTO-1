@@ -1,4 +1,7 @@
 .section-5 {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 10%;
     .topics {
         display: flex;
         flex-direction: column;
@@ -10,25 +13,27 @@
             justify-content: center;
             align-items: center;
             p { 
-                margin-top: 13px;
-                margin-bottom: 65px;
+                margin-top: 5%;
+                padding-bottom: 30%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 flex-wrap: wrap;
-                width: 288px;
-                height: 64px;
+                /*width: 288px;
+                height: 64px;*/
             }
             .pie-de-imagen-long {
                 text-align: center;
             }
-            .ultima-imagen {
-                margin-bottom: 45px;
+            .topic.ultimo-topic {
+                padding-bottom: 0;
+            }
+            p.pie-de-imagen.ultima-imagen {
+                padding-bottom: 0;
             }
         }
     }
     h2 {
-        padding-left: 16px;
-        margin-bottom: 37px;
+        margin-bottom: 10%;
     }
 }
