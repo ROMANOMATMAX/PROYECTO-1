@@ -140,18 +140,23 @@
     }
 
     .section-4 h2 {
-        padding-left: 200px;
+        padding-left: 14%;
     }
 
     .section-5 h2 {
-        padding-left: 200px;
+        padding-left: 14%;
         margin-bottom: 36px;
     }
 
-    .section-5 .topics {
-        flex-direction: row;
-        padding-left: 13.9%;
-        padding-right: 13.9%;
+    .section-5 
+    {   
+        padding-right: 0;
+        padding-left: 0;
+        .topics {
+            flex-direction: row;
+            padding-left: 13.9%;
+            padding-right: 13.9%;
+        }
     }
 
     .section-5 .topics .topic {
@@ -164,6 +169,7 @@
 
     .section-5 .topics .topic p {
         margin: 0;
+        padding-bottom: 0;
         align-items: flex-start;
         text-align: center;
     }
