@@ -27,6 +27,9 @@
         opacity: 1;
         width: auto;
         height: auto;
+        li a {
+            pointer-events: visible;
+        }
     }
     .section-1 {
         padding-left: 13.9%;
@@ -41,6 +44,13 @@
             /*width: 628px;
             height: 48px;*/
         }
+        p.primer-parrafo-mobile {
+            display: none;
+        }
+        p.primer-parrafo {
+            display: block;
+            width: 43%;
+        }
         a {
             width: auto;
             padding-right: 3%;
@@ -48,6 +58,10 @@
             padding-top: 1%;
             padding-bottom: 1%;
             margin-bottom: 0;
+            &:hover {
+                background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+                color: white;
+            }
         }
     }
 
@@ -55,7 +69,7 @@
     .section-2 {
         padding: 0;
         background: #6a233a;
-        background: radial-gradient(circle, #6a233a 46%, #2a0979 83%);
+        background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
         clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
         .contenedor {
             flex-direction: row;
@@ -84,6 +98,7 @@
     
     .section-2 .episodio {
         flex-basis: calc(50% - 2.95%);
+        margin-top: 0;
     }
 
     .section-2 .episodio iframe {
@@ -154,6 +169,7 @@
     {   
         padding-right: 0;
         padding-left: 0;
+        margin-bottom: 5%;
         .topics {
             flex-direction: row;
             justify-content: space-between;
@@ -189,9 +205,18 @@
         text-align: center;
     }
 
-    .section-6 h2 {
-        width: 692px;
-        height: 62px;
+    .section-6 
+    {
+        padding-top: 10%;
+        padding-bottom: 8%;
+        a {
+            width: auto;
+            padding: 1% 4.1%;
+        }
+        h2 {
+            width: 48.1%;
+            margin: 3%;
+        }
     }
 
     footer {
@@ -201,12 +226,12 @@
         padding-right: 100px;
     }
 
-    footer div {
-        width: 234px;
+    footer p {
+        width: auto;
     }
 
-    footer div ul {
-        margin-bottom: 0;
+    footer ul {
+        width: 30%;
     }
 }
 

@@ -16,9 +16,9 @@
         margin-bottom: 5%;
         padding-left: 1.6%;
     }
-
    .episodio{
-    width: 100%;
+    // width: 100%;
+    margin-top: -16%;
     margin-bottom: 3%;
     iframe {
         width: 100%;
@@ -27,30 +27,12 @@
         padding-left: 0.6875rem;*/
 
     }
-    
-    .nerd-iframe {
-        margin-top: -51px;
-    }
-
    } 
+   .episodio.episodio-1 {
+    margin-top: 0;
+    }
 }
 
-/*.section-2:after, .section-2:before {
-    content: '';
-    position: absolute;
-    width:100%;
-    height: 50%;
-    left: 0;
-    top: 0;
-    background: rgb(0,0,255);
-background: linear-gradient(270deg, rgba(0,0,255,1) 50%, rgba(0,0,163,1) 100%, rgba(0,212,255,1) 100%);
-    transform: skewY(-5deg);
-    z-index: -1;
-}
-
-.section-2:after {
-    top: 50%;
-}*/
 
 .section-2 {
     .contenedor {
@@ -70,10 +52,11 @@ background: linear-gradient(270deg, rgba(0,0,255,1) 50%, rgba(0,0,163,1) 100%, r
     /* padding-top: 12rem; */
     /* padding-bottom: 12rem; */
     background: #6a233a;
-    background: radial-gradient(circle, #6a233a 46%, #2a0979 83%);
+    background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     clip-path: polygon(0 2%, 100% 0%, 100% 98%, 0% 100%);
     /*padding-left: 6.9%;
     padding-right: 6.9%;
     padding-top: 4.8%;*/
     z-index: -1;
 }
+

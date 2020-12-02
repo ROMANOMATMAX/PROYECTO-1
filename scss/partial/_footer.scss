@@ -3,17 +3,16 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0% 14.7%;
     p {
+        width: 100%;
+        text-align: center;
         margin-top: 5%;
         margin-bottom: 5%;
     }
-    div {
+    ul {
         width: 100%;
-        ul {
-            width: 100%;
-            padding-bottom: 20%;
-            display: flex;
-            justify-content: space-around;
-        }
+        display: flex;
+        justify-content: space-around;
     }
 }

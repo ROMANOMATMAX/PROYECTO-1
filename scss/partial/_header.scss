@@ -22,15 +22,12 @@ nav {
     opacity: 0;
     background-color: #0000EC;
     li {
-        &:hover {
-            background-color: #7575ad;
-        }
         a {
             padding: 1rem;
             pointer-events: none;
             display: block;
             &:hover {
-                color: white;
+                text-decoration: underline;
             }
         }
     }
