@@ -130,11 +130,13 @@
         margin-bottom: 16px;
     }
 
-    .section-4 .album-imagenes {
-        flex-direction: row;
-        flex-wrap: wrap;
+    .section-4 {
+        margin-bottom: 5%;
+        .album-imagenes {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
     }
-
     .section-4 .album-imagenes .imagen-del-album {
         flex-basis: (100% / 3);
     }
@@ -154,6 +156,7 @@
         padding-left: 0;
         .topics {
             flex-direction: row;
+            justify-content: space-between;
             padding-left: 13.9%;
             padding-right: 13.9%;
         }
@@ -164,7 +167,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        flex-basis: 25%;
+        /*flex-basis: 25%;*/
     }
 
     .section-5 .topics .topic p {
