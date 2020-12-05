@@ -9,6 +9,15 @@
     h1{
         margin-bottom: 5%;
         align-self: flex-start;
+        span.linea-horizontal {
+        text-decoration: line-through;
+        }
+        br.blank-space {
+            display: inline;
+        }
+        span.blank-space {
+            display: none;
+        }
     }
     p {
         /*width: 18rem;*/

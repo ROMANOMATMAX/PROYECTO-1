@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     header {
         height: 80px;
         display: flex;
@@ -28,6 +28,7 @@
         width: auto;
         height: auto;
         li a {
+            color: black;
             pointer-events: visible;
         }
     }
@@ -37,6 +38,12 @@
         align-items: flex-start;
         h1 {
             margin-bottom: 0;
+            br.blank-space {
+                display: none;
+            }
+            span.blank-space {
+                display: inline;
+            }
         }
         p {
             margin-bottom: 5%;
@@ -222,16 +229,20 @@
     footer {
         flex-direction: row;
         justify-content: space-between;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 5%;
     }
 
     footer p {
         width: auto;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     footer ul {
         width: 30%;
+        margin-bottom: 0;
     }
 }
 
