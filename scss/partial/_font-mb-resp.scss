@@ -1,7 +1,7 @@
-@media (min-width: 321px) {
+@media (min-width: 375px) {
     @function calculateRem($size) {
         $remSize: $size / 16px;
-        @return calc(#{$remSize}rem + 0.5vw);
+        @return calc(#{$remSize}rem + 2vw);
     }
     @mixin fontSize($size) {
     font-size: $size; //Fallback in px
@@ -30,11 +30,15 @@
         letter-spacing: 0;
         line-height: 42px;
     }
+
+    .section-6 h2.white-section-title {
+        line-height: 60px;
+    }
     
     .primer-parrafo, .segundo-parrafo, .tercer-parrafo, .primer-parrafo-mobile {
         font-family: 'IBM Plex Mono', monospace;
         font-weight: 400;
-        @include fontSize(14px);
+        @include fontSize(8px);
         color: #060A24;  
         letter-spacing: 0;
         line-height: 22px;
@@ -43,7 +47,7 @@
     .conoce-mas-y-escucha-los-episodios {
         font-family: 'IBM Plex Mono', monospace;
         font-weight: 600;
-        @include fontSize(16px);
+        @include fontSize(10px);
         color: #060A24;
         letter-spacing: 0;
         text-align: center;
@@ -64,9 +68,192 @@
     }
 
     .pie-de-imagen {
-        @include fontSize(24px);
+        @include fontSize(18px);
         font-family: 'IBM Plex Sans', sans-serif;
         color: #060A24;
         font-weight: 600;
+    }
+    p.texto-footer {
+        font-family: 'IBM Plex Mono';
+        color: #060A24;
+        @include fontSize(8px);
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 425px) {
+    @function calculateRem($size) {
+        $remSize: $size / 16px;
+        @return calc(#{$remSize}rem + 3.5vw);
+    }
+    @mixin fontSize($size) {
+    font-size: $size; //Fallback in px
+    font-size: calculateRem($size);
+    }
+
+    .navegacion-principal {
+        font-size: 16px;
+        font-family: 'IBM Plex Mono', monospace;
+        color: #060A24
+    }
+    
+    .font-mono {
+        font-family: 'IBM Plex Mono', monospace;
+    }
+    
+    .font-sans {
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+    
+    section h1, h2 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 400;
+        @include fontSize(36px);
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 42px;
+    }
+
+    .section-6 h2.white-section-title {
+        line-height: 70px;
+    }
+    
+    .primer-parrafo, .segundo-parrafo, .tercer-parrafo, .primer-parrafo-mobile {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        @include fontSize(3px);
+        color: #060A24;  
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+    
+    .conoce-mas-y-escucha-los-episodios {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 600;
+        @include fontSize(5px);
+        color: #060A24;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+    }
+    
+    /*section h2 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 42px;
+    }*/
+    
+    .blue-section-title {
+        color: #060A24;
+    }
+
+    .pie-de-imagen {
+        @include fontSize(14px);
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: #060A24;
+        font-weight: 600;
+    }
+    p.texto-footer {
+        font-family: 'IBM Plex Mono';
+        color: #060A24;
+        @include fontSize(3px);
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 768px) {
+    @function calculateRem($size) {
+        $remSize: $size / 16px;
+        @return calc(#{$remSize}rem + 5.5vw);
+    }
+    @function calculateRem-parrafos($size) {
+        $remSize: $size / 16px;
+        @return calc(#{$remSize}rem + 3vw);
+    }
+    @mixin fontSize($size) {
+    font-size: $size; //Fallback in px
+    font-size: calculateRem($size);
+    }
+    @mixin fontSize-parrafos($size) {
+        font-size: $size; //Fallback in px
+        font-size: calculateRem-parrafos($size);
+        }
+
+    .navegacion-principal {
+        font-size: 16px;
+        font-family: 'IBM Plex Mono', monospace;
+        color: #060A24
+    }
+    
+    .font-mono {
+        font-family: 'IBM Plex Mono', monospace;
+    }
+    
+    .font-sans {
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+    
+    section h1, h2 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 400;
+        @include fontSize(40px);
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 90px;
+    }
+
+    .section-6 h2.white-section-title {
+        line-height: 120px;
+    }
+    
+    .primer-parrafo, .segundo-parrafo, .tercer-parrafo, .primer-parrafo-mobile {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        @include fontSize-parrafos(10px);
+        color: #060A24;  
+        letter-spacing: 0;
+        line-height: 50px;
+    }
+    
+    .conoce-mas-y-escucha-los-episodios {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 600;
+        @include fontSize-parrafos(5px);
+        color: #060A24;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+    }
+    
+    /*section h2 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 42px;
+    }*/
+    
+    .blue-section-title {
+        color: #060A24;
+    }
+
+    .pie-de-imagen {
+        @include fontSize(14px);
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: #060A24;
+        font-weight: 600;
+    }
+    p.texto-footer {
+        font-family: 'IBM Plex Mono';
+        color: #060A24;
+        @include fontSize-parrafos(9px);
+        letter-spacing: 0;
+        line-height: 22px;
     }
 }

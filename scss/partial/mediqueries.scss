@@ -246,6 +246,74 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 375px) {
+    .section-1 h1 {
+        margin-bottom: 30px;
+    }
+    .section-1 p {
+        margin-bottom: 35px;
+    }
+    .section-2 .episodio {
+        margin-bottom: 18px;
+    }
+    .section-2 h2 {
+        margin-bottom: 33px;
+    }
+    .section-3 h2 {
+        margin-bottom: 15px;
+    }
+    .section-4 h2 {
+        margin-bottom: 22px;
+    }
+    .section-5 h2 {
+        margin-bottom: 40px;
+    }
+}    
 
+@media (min-width: 425px) {
+    .section-1 h1 {
+        margin-bottom: 40px;
+    }
+    .section-2 .episodio {
+        margin-bottom: 29px;
+    }
+    .section-1 p {
+        margin-bottom: 40px;
+    }
+    .section-2 h2 {
+        margin-bottom: 40px;
+    }
+    .section-3 h2 {
+        margin-bottom: 22px;
+    }
+    .section-4 h2 {
+        margin-bottom: 30px;
+    }
+    .section-5 h2 {
+        margin-bottom: 45px;
+    }
+}    
+
+@media (min-width: 768px) {
+    .section-1 h1 {
+        margin-bottom: 40px;
+    }
+    .section-2 .episodio {
+        margin-bottom: 90px;
+    }
+    .section-1 p {
+        margin-bottom: 40px;
+    }
+    .section-2 h2 {
+        margin-bottom: 40px;
+    }
+    .section-3 h2 {
+        margin-bottom: 22px;
+    }
+    .section-4 h2 {
+        margin-bottom: 30px;
+    }
+    .section-5 h2 {
+        margin-bottom: 45px;
+    }
 }
