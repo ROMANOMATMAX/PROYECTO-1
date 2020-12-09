@@ -15,6 +15,11 @@
     .section-1 p {
         margin-bottom: 35px;
     }
+
+    .section-2 {
+        padding-bottom: 90px;
+    }
+
     .section-2 .episodio {
         margin-bottom: 18px;
     }
@@ -24,17 +29,26 @@
     .section-3 h2 {
         margin-bottom: 15px;
     }
+    .section-3 .imagen-section-3 {
+        margin-top: -100px;
+    }
     .section-4 h2 {
         margin-bottom: 22px;
     }
     .section-5 h2 {
         margin-bottom: 40px;
     }
+    .section-6 {
+        padding-top: 90px;
+    }
 }    
 
 @media (min-width: 425px) {
     .section-1 h1 {
         margin-bottom: 40px;
+    }
+    .section-2 {
+        padding-bottom: 100px;
     }
     .section-2 .episodio {
         margin-bottom: 29px;
@@ -48,11 +62,17 @@
     .section-3 h2 {
         margin-bottom: 22px;
     }
+    .section-3 .imagen-section-3 {
+        margin-top: -110px;
+    }
     .section-4 h2 {
         margin-bottom: 30px;
     }
     .section-5 h2 {
         margin-bottom: 45px;
+    }
+    .section-6 {
+        padding-top: 110px;
     }
 }    
 
@@ -60,23 +80,34 @@
     .section-1 h1 {
         margin-bottom: 40px;
     }
+    .section-2 {
+        padding-bottom: 180px;
+        clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+    }
     .section-2 .episodio {
         margin-bottom: 90px;
     }
     .section-1 p {
         margin-bottom: 40px;
     }
+
     .section-2 h2 {
         margin-bottom: 40px;
     }
     .section-3 h2 {
         margin-bottom: 22px;
     }
+    .section-3 .imagen-section-3 {
+        margin-top: -190px;
+    }
     .section-4 h2 {
         margin-bottom: 30px;
     }
     .section-5 h2 {
         margin-bottom: 45px;
+    }
+    .section-6 {
+        padding-top: 180px;
     }
 }
 
@@ -383,7 +414,8 @@
     }
 
     .section-6 
-    {
+    {   
+        clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0 100%);
         padding-top: 10%;
         padding-bottom: 8%;
         a {
