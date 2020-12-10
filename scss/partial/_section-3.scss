@@ -1,4 +1,5 @@
 .section-3 {
+    position: relative;
     padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 20%;
@@ -6,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 2;
     .imagen-section-3 {
         margin-top: -85px;
         margin-bottom: 10%;
