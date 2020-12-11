@@ -18,6 +18,13 @@ footer {
         text-align: center;
         li.red-social {
             flex-basis: calc(23%);
+            a {
+                display: block;
+                position: relative;
+                top:-20px;
+                width: 100%;
+                height: 100%;
+            }
         }
     }
 }
